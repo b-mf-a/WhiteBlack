@@ -46,7 +46,7 @@ def run_game():
                 lst[i], lst[j] = lst[j], lst[i]
 
     def new_deck():
-        deck = [0] * 1 + [1] * 1
+        deck = [0] * 26 + [1] * 26
         shuffle_inplace(deck)
         return deck
 
